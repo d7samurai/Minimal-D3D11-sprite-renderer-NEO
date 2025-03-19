@@ -34,7 +34,7 @@ The sprite's `position` corresponds to the position of the anchor point on scree
 
 The [antialiasing technique](https://gist.github.com/d7samurai/9f17966ba6130a75d1bfb0f1894ed377) used in this renderer requires premultiplied alpha textures. [TexPrep](https://gist.github.com/d7samurai/9f17966ba6130a75d1bfb0f1894ed377#texprep) is a small (~17 KB) commandline tool that can read most image formats, convert to premultiplied alpha and output as PNG, BMP, BIN or [TXT](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-spritesheet-h-L15-L74).
 
-Also see [Minimal D3D11 sprite renderer](https://gist.github.com/d7samurai/8f91f0343c411286373161202c199b5c) and the original [Minimal D3D11](https://gist.github.com/d7samurai/261c69490cce0620d0bfc93003cd1052) reference for adjacent / elaborated example code.
+Also see [Minimal D3D11 sprite renderer](https://gist.github.com/d7samurai/8f91f0343c411286373161202c199b5c) and the original [Minimal D3D11](https://gist.github.com/d7samurai/261c69490cce0620d0bfc93003cd1052) gist reference for adjacent / elaborated example code.
 
 #### Sprite sheet uses characters from [Tiny Heroes @ CraftPix.net](https://craftpix.net/freebies/free-pixel-art-tiny-hero-sprites/).
 
