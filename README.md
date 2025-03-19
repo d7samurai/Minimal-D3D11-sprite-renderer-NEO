@@ -27,7 +27,8 @@ Sprite textures must be separated by at least a 1-pixel wide, fully transparent 
 
 Anchor/pivot point: `(0.0, 0.0)` is top-left, `(1.0, 1.0)` is bottom-right, but can be set to anywhere [inside or outside](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L213) sprite:
 
-[![spacer354](https://gist.github.com/assets/5618797/1753adee-d051-4fb7-8d8d-0e57d78a54cd)](#)[![anchor topleft](https://gist.github.com/assets/5618797/711aa4b0-f2e0-4c5f-88c6-fd64de5a6a0b)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L213) [![anchor bottomright](https://gist.github.com/assets/5618797/cb609934-b1ec-461c-ba86-b37a7744021f)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L213)
+[![spacer354](https://gist.github.com/assets/5618797/1753adee-d051-4fb7-8d8d-0e57d78a54cd)](#)[![image](https://github.com/user-attachments/assets/4a262b4a-287e-4f07-bcd9-822bfca3e77f)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L213) [![image](https://github.com/user-attachments/assets/4d283496-dba7-4d6c-995b-62b7dd948b7e)
+](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L213)
 
 The sprite's `position` corresponds to the position of the anchor point on screen, with the sprite texture aligned accordingly. Similarly, `rotation` and `scale` (including horizontal and vertical mirroring) are done around the anchor (pivot) point.
 
@@ -40,6 +41,7 @@ Also see [Minimal D3D11 sprite renderer](https://gist.github.com/d7samurai/8f91f
 ###### Follow on [Twitter](https://twitter.com/d7samurai) for future announcements. Soon™:
 #
 [![image](https://github.com/user-attachments/assets/9fb86cc4-99a3-44cb-b7cc-ca05259e9dad)](https://twitter.com/d7samurai)
+
 
 
 
