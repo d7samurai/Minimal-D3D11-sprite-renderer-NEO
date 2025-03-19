@@ -23,7 +23,7 @@ Custom antialiased point sampling that works for smooth sub-pixel movement, non-
 
 Sprite textures must be separated by at least a 1-pixel wide, fully transparent gap (0x00000000, but indicated in green here): 
 
-[![image](https://github.com/user-attachments/assets/04124b9b-8838-4467-92eb-2ea03957da93)](#)[![image](https://github.com/user-attachments/assets/d852547c-01f1-4e03-9456-8ff65a3fb707)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-spritesheet-h-L15-L74)
+[![image](https://github.com/user-attachments/assets/04124b9b-8838-4467-92eb-2ea03957da93)](#)[![image](https://github.com/user-attachments/assets/d852547c-01f1-4e03-9456-8ff65a3fb707)](https://github.com/d7samurai/Minimal-D3D11-sprite-renderer-NEO/blob/main/spritesheet.h#L15-L74)
 
 Anchor/pivot point: `(0.0, 0.0)` is top-left, `(1.0, 1.0)` is bottom-right, but can be set to anywhere [inside or outside](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L213) sprite:
 
