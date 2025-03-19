@@ -11,7 +11,7 @@ The renderer is "immediate mode" in the sense that a fresh batch of sprite data 
 
 ARGB filtering & alpha blending:
 
-[![315867464-3a8db764-8d3e-425a-8a86-b7ad44a1809d](https://github.com/user-attachments/assets/5ac4ffa2-0b8b-4ea4-97bf-00872770fba5)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L217)[![315875615-f140a10d-78bf-4626-8c49-dfec244fab56 (1)](https://github.com/user-attachments/assets/d69f6a0c-15a3-49d4-8f73-712a33ede275)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L217)
+[![315867464-3a8db764-8d3e-425a-8a86-b7ad44a1809d](https://github.com/user-attachments/assets/5ac4ffa2-0b8b-4ea4-97bf-00872770fba5)](https://github.com/d7samurai/Minimal-D3D11-sprite-renderer-NEO/blob/main/cpu.cpp#L217)[![315875615-f140a10d-78bf-4626-8c49-dfec244fab56 (1)](https://github.com/user-attachments/assets/d69f6a0c-15a3-49d4-8f73-712a33ede275)](https://github.com/d7samurai/Minimal-D3D11-sprite-renderer-NEO/blob/main/cpu.cpp#L217)
 
 Custom antialiased point sampling that works for smooth sub-pixel movement, non-integer scaling and arbitrary rotation:
 
