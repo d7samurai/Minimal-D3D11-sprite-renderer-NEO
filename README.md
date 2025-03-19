@@ -15,11 +15,11 @@ ARGB filtering & alpha blending:
 
 Custom antialiased point sampling that works for smooth sub-pixel movement, non-integer scaling and arbitrary rotation:
 
-[![spacer281](https://gist.github.com/assets/5618797/d6bbf37a-512b-4049-b380-f744a0e6d50d)](#)[![move double](https://gist.github.com/assets/5618797/a35d720d-db29-4652-bc9e-f8facc0c4759)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L214)
+[![spacer281](https://gist.github.com/assets/5618797/d6bbf37a-512b-4049-b380-f744a0e6d50d)](#)[![316345019-a35d720d-db29-4652-bc9e-f8facc0c4759 (1)](https://github.com/user-attachments/assets/d6390a0e-f2e6-4bb6-ab6b-ad8ff318f478)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L214)
 
-[![spacer281](https://gist.github.com/assets/5618797/d6bbf37a-512b-4049-b380-f744a0e6d50d)](#)[![scale double](https://gist.github.com/assets/5618797/7ba85821-e2c5-4f5f-8b61-ba3a6e4d9eb6)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L215)
+[![spacer281](https://gist.github.com/assets/5618797/d6bbf37a-512b-4049-b380-f744a0e6d50d)](#)[![316345024-7ba85821-e2c5-4f5f-8b61-ba3a6e4d9eb6 (1)](https://github.com/user-attachments/assets/2161ce55-c77b-4ed0-abde-7893863f1f58)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L215)
 
-[![spacer281](https://gist.github.com/assets/5618797/d6bbf37a-512b-4049-b380-f744a0e6d50d)](#)[![rotate double](https://gist.github.com/assets/5618797/f6e069f7-418b-4b4b-96f1-0140e13ae2da)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L216)
+[![spacer281](https://gist.github.com/assets/5618797/d6bbf37a-512b-4049-b380-f744a0e6d50d)](#)[![316345026-f6e069f7-418b-4b4b-96f1-0140e13ae2da (1)](https://github.com/user-attachments/assets/bda1e233-7cf4-4ea1-bce4-2493a13a6721)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L216)
 
 Sprite textures must be separated by at least a 1-pixel wide, fully transparent gap (0x00000000, but indicated in green here): 
 
@@ -40,6 +40,9 @@ Also see [Minimal D3D11 sprite renderer](https://gist.github.com/d7samurai/8f91f
 ###### Follow on [Twitter](https://twitter.com/d7samurai) for future announcements. Soon™:
 #
 [![image](https://github.com/user-attachments/assets/9fb86cc4-99a3-44cb-b7cc-ca05259e9dad)](https://twitter.com/d7samurai)
+
+
+
 
 
 
