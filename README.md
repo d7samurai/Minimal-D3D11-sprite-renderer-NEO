@@ -11,7 +11,7 @@ The renderer is "immediate mode" in the sense that a fresh batch of sprite data 
 
 ARGB filtering & alpha blending:
 
-[![color tinting](https://gist.github.com/assets/5618797/3a8db764-8d3e-425a-8a86-b7ad44a1809d)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L217)[![alpha blending](https://gist.github.com/assets/5618797/f140a10d-78bf-4626-8c49-dfec244fab56)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L217)
+[![315867464-3a8db764-8d3e-425a-8a86-b7ad44a1809d](https://github.com/user-attachments/assets/5ac4ffa2-0b8b-4ea4-97bf-00872770fba5)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L217)[![315875615-f140a10d-78bf-4626-8c49-dfec244fab56 (1)](https://github.com/user-attachments/assets/d69f6a0c-15a3-49d4-8f73-712a33ede275)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L217)
 
 Custom antialiased point sampling that works for smooth sub-pixel movement, non-integer scaling and arbitrary rotation:
 
@@ -40,5 +40,7 @@ Also see [Minimal D3D11 sprite renderer](https://gist.github.com/d7samurai/8f91f
 ###### Follow on [Twitter](https://twitter.com/d7samurai) for future announcements. Soon™:
 #
 [![image](https://github.com/user-attachments/assets/9fb86cc4-99a3-44cb-b7cc-ca05259e9dad)](https://twitter.com/d7samurai)
+
+
 
 
