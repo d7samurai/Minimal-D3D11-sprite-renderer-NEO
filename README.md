@@ -1,4 +1,4 @@
-[![image](https://github.com/user-attachments/assets/9fb86cc4-99a3-44cb-b7cc-ca05259e9dad)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b)
+[![image](https://github.com/user-attachments/assets/9fb86cc4-99a3-44cb-b7cc-ca05259e9dad)](https://twitter.com/d7samurai)
 
 # Minimal D3D11 sprite renderer NEO
 **Ultra-compact sprite rendering code with example frame animation logic.** This release contains tech bits from the upcoming SuperNeo™ 2D game engine and includes anchor/pivot point, rotation, color filtering, alpha blending and built-in antialiased point sampling. As usual: complete, runnable single-function app. ~150 LOC. No modern C++, OOP or (other) obscuring cruft. The program produces this output:
