@@ -23,7 +23,7 @@ Custom antialiased point sampling that works for smooth sub-pixel movement, non-
 
 Sprite textures must be separated by at least a 1-pixel wide, fully transparent gap (0x00000000, but indicated in green here): 
 
-[![spacer212](https://gist.github.com/assets/5618797/fc52aae1-7ad1-4966-ad03-466ce697bbbc)](#)[![sprite_sheet_padding](https://gist.github.com/assets/5618797/bbfaff36-c2e1-4b01-8110-1070077a9179)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-spritesheet-h-L15-L74)
+[![spacer212](https://gist.github.com/assets/5618797/fc52aae1-7ad1-4966-ad03-466ce697bbbc)](#)[![image](https://github.com/user-attachments/assets/d852547c-01f1-4e03-9456-8ff65a3fb707)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-spritesheet-h-L15-L74)
 
 Anchor/pivot point: `(0.0, 0.0)` is top-left, `(1.0, 1.0)` is bottom-right, but can be set to anywhere [inside or outside](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L213) sprite:
 
@@ -40,6 +40,7 @@ Also see [Minimal D3D11 sprite renderer](https://gist.github.com/d7samurai/8f91f
 ###### Follow on [Twitter](https://twitter.com/d7samurai) for future announcements. Soon™:
 #
 [![image](https://github.com/user-attachments/assets/9fb86cc4-99a3-44cb-b7cc-ca05259e9dad)](https://twitter.com/d7samurai)
+
 
 
 
