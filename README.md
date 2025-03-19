@@ -25,14 +25,14 @@ Sprite textures must be separated by at least a 1-pixel wide, fully transparent 
 
 [![image](https://github.com/user-attachments/assets/04124b9b-8838-4467-92eb-2ea03957da93)](#)[![image](https://github.com/user-attachments/assets/d852547c-01f1-4e03-9456-8ff65a3fb707)](https://github.com/d7samurai/Minimal-D3D11-sprite-renderer-NEO/blob/main/spritesheet.h#L15-L74)
 
-Anchor/pivot point: `(0.0, 0.0)` is top-left, `(1.0, 1.0)` is bottom-right, but can be set to anywhere [inside or outside](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L213) sprite:
+Anchor/pivot point: `(0.0, 0.0)` is top-left, `(1.0, 1.0)` is bottom-right, but can be set to anywhere [inside or outside](https://github.com/d7samurai/Minimal-D3D11-sprite-renderer-NEO/blob/main/cpu.cpp#L213) sprite:
 
-[![image](https://github.com/user-attachments/assets/bdc9f4e5-e97f-4437-a495-c419874bfd6a)](#)[![image](https://github.com/user-attachments/assets/4a262b4a-287e-4f07-bcd9-822bfca3e77f)](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L213) [![image](https://github.com/user-attachments/assets/4d283496-dba7-4d6c-995b-62b7dd948b7e)
-](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-cpu-cpp-L213)
+[![image](https://github.com/user-attachments/assets/bdc9f4e5-e97f-4437-a495-c419874bfd6a)](#)[![image](https://github.com/user-attachments/assets/4a262b4a-287e-4f07-bcd9-822bfca3e77f)](https://github.com/d7samurai/Minimal-D3D11-sprite-renderer-NEO/blob/main/cpu.cpp#L213) [![image](https://github.com/user-attachments/assets/4d283496-dba7-4d6c-995b-62b7dd948b7e)
+](https://github.com/d7samurai/Minimal-D3D11-sprite-renderer-NEO/blob/main/cpu.cpp#L213)
 
 The sprite's `position` corresponds to the position of the anchor point on screen, with the sprite texture aligned accordingly. Similarly, `rotation` and `scale` (including horizontal and vertical mirroring) are done around the anchor (pivot) point.
 
-The [antialiasing technique](https://gist.github.com/d7samurai/9f17966ba6130a75d1bfb0f1894ed377) used in this renderer requires premultiplied alpha textures. [TexPrep](https://gist.github.com/d7samurai/9f17966ba6130a75d1bfb0f1894ed377#texprep) is a small (~17 KB) commandline tool that can read most image formats, convert to premultiplied alpha and output as PNG, BMP, BIN or [TXT](https://gist.github.com/d7samurai/e51adec8a440126d028b87406556079b#file-spritesheet-h-L15-L74).
+The [antialiasing technique](https://gist.github.com/d7samurai/9f17966ba6130a75d1bfb0f1894ed377) used in this renderer requires premultiplied alpha textures. [TexPrep](https://gist.github.com/d7samurai/9f17966ba6130a75d1bfb0f1894ed377#texprep) is a small (~17 KB) commandline tool that can read most image formats, convert to premultiplied alpha and output as PNG, BMP, BIN or [TXT](https://github.com/d7samurai/Minimal-D3D11-sprite-renderer-NEO/blob/main/spritesheet.h#L15-L74).
 #
 Also see [Minimal D3D11 sprite renderer](https://gist.github.com/d7samurai/8f91f0343c411286373161202c199b5c) and the original [Minimal D3D11](https://gist.github.com/d7samurai/261c69490cce0620d0bfc93003cd1052) gist reference for adjacent / elaborated example code.
 
